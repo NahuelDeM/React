@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bordecaja {
+  border: 2px solid blue;
+  padding-bottom: 8px;
+}
+
+.Bienvenido {
+  border: solid 2px blueviolet;
+}
+
+.Amigos {
+  border: 3px solid lightblue;
+}
+
+.NyA {
+  border: 2px solid red;
+}

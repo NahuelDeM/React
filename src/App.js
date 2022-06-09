@@ -2,6 +2,7 @@ import "./styles.css";
 import Bienvenido from "./Bienvenido";
 import Amigos from "./Componente";
 import Eventos from "./Eventos";
+import Contador from "./Contador";
 const nombres = ["Jose", "Carla", "Vale", "Pancho"];
 const lastname = ["Sanchez"];
 
@@ -31,8 +32,12 @@ export default function App() {
           <Bienvenido name={nombre} lastname={lastname} />
         ))}
       </div>
-      <div>
+      <br />
+      <div className="Aprendiendo">
         <Eventos title="Aprender React" />
+      </div>
+      <div>
+        <Contador title="Esto es un contador" />
       </div>
     </div>
   );

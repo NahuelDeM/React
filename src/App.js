@@ -36,7 +36,8 @@ export default function App() {
       <div className="Aprendiendo">
         <Eventos title="Aprender React" />
       </div>
-      <div>
+      <br />
+      <div className="grefg">
         <Contador title="Esto es un contador" />
       </div>
     </div>

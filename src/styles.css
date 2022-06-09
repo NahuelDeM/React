@@ -22,4 +22,10 @@
 
 .Aprendiendo {
   border: 2px solid yellowgreen;
+  padding-bottom: 10px;
+}
+
+.grefg {
+  border: 2px solid navy;
+  padding-bottom: 10px;
 }

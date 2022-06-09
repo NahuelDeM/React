@@ -3,6 +3,7 @@ import Bienvenido from "./Bienvenido";
 import Amigos from "./Componente";
 import Eventos from "./Eventos";
 import Contador from "./Contador";
+import Modular from "./Modular";
 const nombres = ["Jose", "Carla", "Vale", "Pancho"];
 const lastname = ["Sanchez"];
 
@@ -40,6 +41,16 @@ export default function App() {
       <div className="grefg">
         <Contador title="Esto es un contador" />
       </div>
+      <div>
+        <button id="btnModal">Abrir modal</button>
+        <div id="myModal" class="modalContainer">
+          <div class="modal-content">
+            <span class="close">×</span> <h2>Modal</h2>
+            <p>Se ha desplegado el modal y bloqueado el scroll del body!</p>
+          </div>
+        </div>
+      </div>
+      ;
     </div>
   );
 }
